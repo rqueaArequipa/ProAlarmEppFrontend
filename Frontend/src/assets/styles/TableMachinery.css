@@ -1,0 +1,22 @@
+.image-cell {
+    width: 100px;
+    /* Ajusta el tamaño de la celda según tu preferencia */
+    text-align: center;
+    /* Centra la imagen dentro de la celda */
+}
+
+.image-cell img {
+    max-width: 100%;
+    /* Ajusta el tamaño máximo de la imagen para que se ajuste dentro de la celda */
+    max-height: 100px;
+    /* Ajusta la altura máxima de la imagen según tu preferencia */
+    object-fit: contain;
+    /* Ajusta cómo se muestra la imagen dentro de la celda */
+}
+
+.text-cell {
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+    vertical-align: middle;
+    /* Centra el contenido verticalmente */
+}
